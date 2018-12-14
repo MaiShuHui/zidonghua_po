@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-201809122316",
+    "children" : [ {
+      "name" : "2560-MainThread",
+      "children" : [ {
+        "name" : "TestLogin.test_login[13826920169-123456]",
+        "uid" : "c332a5fad56f8c5d",
+        "parentUid" : "02d3048eaa40bd7117f7d94c08cf7269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544694133071,
+          "stop" : 1544694166741,
+          "duration" : 33670
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02d3048eaa40bd7117f7d94c08cf7269"
+    } ],
+    "uid" : "bcc75a4064df188074429f52db2e903a"
+  } ]
+}

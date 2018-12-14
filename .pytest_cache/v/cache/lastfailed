@@ -1,0 +1,7 @@
+{
+  "scripts/test_allure.py::TestAllure::()::test_allure_03": true,
+  "scripts/test_aolai.py::TestAolai::()::test_aolai": true,
+  "scripts/test_in.py::TestLogin::()": true,
+  "scripts/test_txt.py::TestAike::()": true,
+  "scripts03/test_setting.py::TestSetting::()::test_setting": true
+}

@@ -1,0 +1,98 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544754054625" stop="1544754054699">
+  <name>test_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544754054625" status="passed" stop="1544754054634">
+      <name>TestAllure.test_allure_01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5668-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544754054634" status="passed" stop="1544754054634">
+          <name>新增步骤</name>
+          <title>新增步骤</title>
+          <attachments>
+            <attachment source="508d4a1b-0551-4359-8ff3-3e785b809a02-attachment.txt" title="描述:" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1544754054652" status="passed" stop="1544754054655">
+      <name>TestAllure.test_allure_02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5668-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544754054654" status="passed" stop="1544754054654">
+          <name>修改步骤</name>
+          <title>修改步骤</title>
+          <attachments>
+            <attachment source="eab6344a-cdb9-4cb4-b276-eb86b54d8f2a-attachment.txt" title="描述:我是修改步骤" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1544754054657" status="failed" stop="1544754054696">
+      <name>TestAllure.test_allure_03</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_allure.TestAllure object at 0x000002325AD968D0&gt;
+
+    @allure.step("查询步骤")
+    def test_allure_03(self):
+        print("03被执行")
+&gt;       assert 0
+E       assert 0
+
+scripts\test_allure.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5668-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544754054658" status="failed" stop="1544754054661">
+          <name>查询步骤</name>
+          <title>查询步骤</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1544754054697" status="passed" stop="1544754054699">
+      <name>TestAllure.test_allure_04</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="5668-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544754054699" status="passed" stop="1544754054699">
+          <name>删除步骤</name>
+          <title>删除步骤</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
